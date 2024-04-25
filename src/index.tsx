@@ -11,8 +11,11 @@ root.render(
     <React.StrictMode>
         <div style={{
             backgroundColor: colors.background,
+            position: 'relative',
             width: '100%',
             minHeight: '100vh',
+            maxHeight: '100vh',
+            overflow: 'hidden',
         }}>
             <App/>
         </div>

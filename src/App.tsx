@@ -54,7 +54,8 @@ function App() {
 
     return (
         <Container style={{
-            minHeight: '100vh',
+            height: '100%',
+            maxHeight: '100%',
             maxWidth: 390,
             color: "white",
             display: 'flex',
@@ -70,7 +71,9 @@ function App() {
                             {!gamemode ?
                                 <motion.div
                                     style={{
-                                        maxWidth: "min-content"
+                                        maxWidth: "min-content",
+                                        maxHeight: "100%",
+                                        display: 'flex',
                                     }}
                                     initial={{
                                         transform: "translateX(-100%) rotate(-10deg)",
@@ -92,6 +95,8 @@ function App() {
                                 </motion.div> :
                                 <motion.div
                                     style={{
+                                        maxHeight: "100%",
+                                        display: 'flex',
                                         maxWidth: "min-content"
                                     }}
                                     initial={{

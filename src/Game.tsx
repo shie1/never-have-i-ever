@@ -139,7 +139,7 @@ export const Game = () => {
             }}>
                 <motion.div layout key="gameMainLayout">
                     <motion.h1 key={"gm-title"} style={{
-                        fontSize: '5.5rem',
+                        fontSize: '4.8rem',
                         fontFamily: "Bebas Tam",
                         textTransform: "uppercase",
                         width: "min-content",

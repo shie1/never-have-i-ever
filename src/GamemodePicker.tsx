@@ -25,12 +25,31 @@ export const GamemodePicker = () => {
                 width: "100%",
                 display: "flex",
                 gap: "1rem",
+                overflowY: "auto",
+                maxHeight: "100%",
+                position: 'relative',
+                scrollSnapType: "y mandatory",
+                '@media (max-height: 855px)': {
+                    maxHeight: 400,
+                    paddingBottom: "50px",
+                    '&::after': {
+                        position: "fixed",
+                        background: `linear-gradient(rgba(0,0,0,0), ${colors.background})`,
+                        content: '""',
+                        height: 100,
+                        width: "100%",
+                        bottom: 0,
+                    },
+                },
+                '& > *': {
+                    scrollSnapAlign: "center",
+                }
             }}>
-                <GameModeCard onClick={()=>{
+                <GameModeCard onClick={() => {
                     setGamemode(true)
                 }} title={"Minden"} emoji={"/exploding_head.png"} description={
                     "minden kérdés: a jó, a rossz, a csúnya. minden."
-                } color={getGamemodeColor(true)!} />
+                } color={getGamemodeColor(true)!}/>
                 <GameModeCard emoji={"/hot_pepper.png"} onClick={() => {
                     setGamemode("Spicy")
                 }} title={"Spicy"} description={
