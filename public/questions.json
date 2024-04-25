@@ -1,0 +1,1036 @@
+{
+  "questions": [
+    {
+      "id": "cheating",
+      "question": {
+        "hu": "csaltam meg a páromat",
+        "en": "cheated on my partner"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "caught-masturbating",
+      "question": {
+        "hu": "buktam le önkielégítés közben",
+        "en": "been caught masturbating"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "late-to-school",
+      "question": {
+        "hu": "értem be késve iskolába",
+        "en": "been late to school"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "throwing-up",
+      "question": {
+        "hu": "hánytam drogok miatt",
+        "en": "thrown up because of any substance"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "stealing",
+      "question": {
+        "hu": "loptam",
+        "en": "stolen anything"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "blackout",
+      "question": {
+        "hu": "ájultam el bármilyen szertől",
+        "en": "blacked out because of any substance"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "threatened-to-be-killed",
+      "question": {
+        "hu": "voltam megfenyegetve, hogy megölnek",
+        "en": "been threatened to be killed"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "self-harm",
+      "question": {
+        "hu": "bántottam magam",
+        "en": "harmed myself"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "horny-in-public",
+      "question": {
+        "hu": "voltam beindulva nyilvános helyen",
+        "en": "got horny in public"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "sex-in-public",
+      "question": {
+        "hu": "szexeltem nyilvános helyen",
+        "en": "had sex in public"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "cheated-on",
+      "question": {
+        "hu": "voltam megcsalva",
+        "en": "been cheated on"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "been-in-a-fight",
+      "question": {
+        "hu": "verekedtem",
+        "en": "fought anyone"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "fighting-over-partner",
+      "question": {
+        "hu": "küzdtem a partneremért",
+        "en": "fought over my partner"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "knocked-out",
+      "question": {
+        "hu": "voltam kiütve",
+        "en": "been knocked out"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "knocked-out-someone",
+      "question": {
+        "hu": "ütöttem ki valakit",
+        "en": "knocked out someone"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "made-cry",
+      "question": {
+        "hu": "sirattam meg valakit",
+        "en": "made someone cry"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "slept-with-friends-partner",
+      "question": {
+        "hu": "feküdtem össze a barátom / barátnőm partnerével",
+        "en": "slept with my friend's partner"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "broke-bone",
+      "question": {
+        "hu": "törtem el csontomat",
+        "en": "broken one of my bones"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "peed-in-pool",
+      "question": {
+        "hu": "pisiltem a medencébe",
+        "en": "peed in a pool"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "peed-in-shower",
+      "question": {
+        "hu": "pisiltem a zuhanyzóban",
+        "en": "peed in the shower"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "cheated-in-board-game",
+      "question": {
+        "hu": "csaltam társasjátékban",
+        "en": "cheated in a board game"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "farted-in-front-of-partner",
+      "question": {
+        "hu": "pukiztam a párom előtt",
+        "en": "farted in front of my partner"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "clogged-a-toilet",
+      "question": {
+        "hu": "dugítottam el egy wc-t",
+        "en": "clogged a toilet"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "laugh-spit",
+      "question": {
+        "hu": "röhögtem és közben kiköptem valamit",
+        "en": "laughed so hard that I spit"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "worn-dirty-underwear",
+      "question": {
+        "hu": "hordtam koszos alsóneműt",
+        "en": "worn dirty underwear"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "one-night-stand",
+      "question": {
+        "hu": "mentem bele egy egyéjszakás kalandba",
+        "en": "had a one night stand"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "series-in-one-day",
+      "question": {
+        "hu": "néztem végig egy nap alatt egy sorozatot",
+        "en": "watched a whole series in one day"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "stayed-up-all-night",
+      "question": {
+        "hu": "maradtam fent egész éjszaka",
+        "en": "stayed up all night"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "walked-in-on-parents",
+      "question": {
+        "hu": "nyitottam rá a szüleimre miközben ők éppen...",
+        "en": "walked in on my parents while they were..."
+      },
+      "gamemodes": [
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "googled-myself",
+      "question": {
+        "hu": "kerestem magamra a Google-ban",
+        "en": "googled myself"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "sent-nudes",
+      "question": {
+        "hu": "küldtem meztelen képet",
+        "en": "sent nudes"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "too-much-social-media",
+      "question": {
+        "hu": "osztottam meg neten olyat, amit nem kellett volna",
+        "en": "shared too much on social media"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "fake-account",
+      "question": {
+        "hu": "csináltam kamuprofilt",
+        "en": "created a fake account"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "not-invited-to-party",
+      "question": {
+        "hu": "mentem el olyan buliba, ahova nem voltam meghívva",
+        "en": "went to a party I wasn't invited to"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-on-first-date",
+      "question": {
+        "hu": "hazudtam az első randin",
+        "en": "lied on the first date"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "doggy-style",
+      "question": {
+        "hu": "szexeltem kutyapózban",
+        "en": "did it in doggy-style"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "broke-phone",
+      "question": {
+        "hu": "törtem el a telefonom véletlenül, vagy szándékosan",
+        "en": "broke my phone accidentally or intentionally"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "late-to-school-or-work",
+      "question": {
+        "hu": "késtem el suliból, munkahelyről",
+        "en": "been late to school or work"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "sent-nude-to-wrong-person",
+      "question": {
+        "hu": "küldtem meztelen képet rossz embernek",
+        "en": "sent nudes to the wrong person"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "used-someone-elses-toothbrush",
+      "question": {
+        "hu": "használtam más fogkeféjét",
+        "en": "used someone else's toothbrush"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "had-sex-public",
+      "question": {
+        "hu": "szexeltem nyilvános helyen",
+        "en": "did it in public"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "69",
+      "question": {
+        "hu": "69-eztem",
+        "en": "did 69"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "pretend-call",
+      "question": {
+        "hu": "színleltem egy hívást, hogy megszabaduljak valakitől",
+        "en": "pretended to be on a call to avoid someone"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "been-on-tv",
+      "question": {
+        "hu": "voltam a tévében",
+        "en": "been on TV"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "pretend-sleep",
+      "question": {
+        "hu": "színleltem az alvást",
+        "en": "pretended to be asleep"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "no-shower",
+      "question": {
+        "hu": "hagytam ki a zuhanyzást több napig",
+        "en": "not showered for multiple days"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "faked-orgasm",
+      "question": {
+        "hu": "színleltem az orgazmust",
+        "en": "faked an orgasm"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "intim-tatoo",
+      "question": {
+        "hu": "csináltattam intim tetoválást",
+        "en": "had an intimate tattoo"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "crush-on-friends-sibling",
+      "question": {
+        "hu": "jött be egy barátom testvére",
+        "en": "had a crush on my friend's sibling"
+      },
+      "gamemodes": [
+        "Crazy",
+        "Normal"
+      ]
+    },
+    {
+      "id": "tatoo",
+      "question": {
+        "hu": "csináltattam tetoválást",
+        "en": "had a tattoo"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "bachlor-party",
+      "question": {
+        "hu": "voltam legény-/leánybúcsún",
+        "en": "been to a bachelor/bachelorette party"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "drugs",
+      "question": {
+        "hu": "drogoztam",
+        "en": "done drugs"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "met-a-celebrity",
+      "question": {
+        "hu": "találkoztam egy hírességgel",
+        "en": "met a celebrity"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "traveled-alone",
+      "question": {
+        "hu": "utaztam egyedül",
+        "en": "traveled alone"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "whipped-cream-out-of-the-can",
+      "question": {
+        "hu": "nyomtam tejszínhabot a dobozból a számba",
+        "en": "sprayed whipped cream out of the can into my mouth"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "sex-with-stranger",
+      "question": {
+        "hu": "szexeltem egy idegenel",
+        "en": "had sex with a stranger"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "did-bdsm",
+      "question": {
+        "hu": "próbáltam ki a BDSM-et",
+        "en": "tried BDSM"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sex-whipped-cream",
+      "question": {
+        "hu": "játszottam tejszínhabbal szex közben",
+        "en": "played with whipped cream during sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sex-with-boss",
+      "question": {
+        "hu": "szexeltem a főnökömmel",
+        "en": "had sex with my boss"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "auditioned-for-reality-tv",
+      "question": {
+        "hu": "jelentkeztem valóságshow-ba",
+        "en": "auditioned for a reality TV show"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lie-about-staying-at-friend",
+      "question": {
+        "hu": "hazudtam, hogy egy barátomnál alszom, hogy máshol legyek",
+        "en": "lied about staying at a friend's house"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-to-get-out-of-trouble",
+      "question": {
+        "hu": "hazudtam, hogy kibújjak a bajból",
+        "en": "lied to get out of trouble"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "been-arrested",
+      "question": {
+        "hu": "voltam letartóztatva",
+        "en": "been arrested"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "dirty-text-to-wrong-person",
+      "question": {
+        "hu": "küldtem erotikus üzenetet a rossz személynek",
+        "en": "sent a dirty text to the wrong person"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lied-about-age-to-get-into-a-club",
+      "question": {
+        "hu": "hazudtam a koromról, hogy bejussak egy klubba",
+        "en": "lied about my age to get into a club"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "fell-asleep-in-public-transport",
+      "question": {
+        "hu": "aludtam el a tömegközlekedésen",
+        "en": "fell asleep in public transport"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "had-sex-in-a-car",
+      "question": {
+        "hu": "szexeltem autóban",
+        "en": "had sex in a car"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "been-ghosted",
+      "question": {
+        "hu": "voltam leghostolva",
+        "en": "been ghosted"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "ghosted-someone",
+      "question": {
+        "hu": "ghostoltam le valakit",
+        "en": "ghosted someone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "stole-something-from-a-friend",
+      "question": {
+        "hu": "loptam valamit egy barátomtól",
+        "en": "stole something from a friend"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "had-a-friend-with-benefits",
+      "question": {
+        "hu": "voltam barátságban extrákkal",
+        "en": "had a friend with benefits"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lost-a-bet-and-had-to-do-something-embarrassing",
+      "question": {
+        "hu": "vesztettem egy fogadást és valami kínosat kellett csinálnom",
+        "en": "lost a bet and had to do something embarrassing"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "been-stalked",
+      "question": {
+        "hu": "voltam stalkolva/zaklatva",
+        "en": "been stalked"
+      },
+      "gamemodes": [
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lied-to-my-boss",
+      "question": {
+        "hu": "hazudtam a főnökömnek",
+        "en": "lied to my boss"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "watched-porn-with-a-stranger",
+      "question": {
+        "hu": "néztem pornót egy idegennel",
+        "en": "watched porn with a stranger"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "watched-porn",
+      "question": {
+        "hu": "néztem pornót",
+        "en": "watched porn"
+      },
+      "gamemodes": [
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "had-a-crush-on-teacher",
+      "question": {
+        "hu": "cursholtam egy tanáromat",
+        "en": "had a crush on my teacher"
+      },
+      "gamemodes": [
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "had-an-embarrassing-nickname",
+      "question": {
+        "hu": "volt egy kínos becenevem",
+        "en": "had an embarrassing nickname"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "used-food-in-bedroom-play",
+      "question": {
+        "hu": "használtam ételt a szexben",
+        "en": "used food in bedroom play"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "had-a-threesome",
+      "question": {
+        "hu": "csináltam hármasban",
+        "en": "had a threesome"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "watched-porn-with-my-partner",
+      "question": {
+        "hu": "néztem pornót a párommal",
+        "en": "watched porn with my partner"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "participated-in-role-play",
+      "question": {
+        "hu": "vettem részt szerepjátékban szex közben",
+        "en": "participated in role-play sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "used-a-sex-toy",
+      "question": {
+        "hu": "használtam szexuális segédeszközt",
+        "en": "used a sex toy"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "been-to-a-strip-club",
+      "question": {
+        "hu": "voltam sztriptízbárban",
+        "en": "been to a strip club"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "had-sex-outdoors",
+      "question": {
+        "hu": "szexeltem a szabadban",
+        "en": "had sex outdoors"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "given-or-received-a-lap-dance",
+      "question": {
+        "hu": "kaptam vagy adtam lapdance-et",
+        "en": "given or received a lap dance"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "handcuffed-during-sex",
+      "question": {
+        "hu": "voltam megbilincselve szex közben",
+        "en": "been handcuffed during sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "handcuffing-during-sex",
+      "question": {
+        "hu": "bilincseltem meg a partneremet szex közben",
+        "en": "handcuffed my partner during sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sexchat",
+      "question": {
+        "hu": "szexchateltem",
+        "en": "tried sexchatting"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "done-it-in-the-shower",
+      "question": {
+        "hu": "szexeltem a zuhany alatt",
+        "en": "done it in the shower"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "received-or-given-a-massage-with-a-happy-ending",
+      "question": {
+        "hu": "kaptam vagy adtam masszázst happy ending-el",
+        "en": "received or given a massage with a happy ending"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "done-it-in-the-kitchen",
+      "question": {
+        "hu": "szexeltem a konyhában",
+        "en": "done it in the kitchen"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "blindfolded-during-sex",
+      "question": {
+        "hu": "szexeltem bekötött szemmel",
+        "en": "been blindfolded during sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "blindfolded-partner-during-sex",
+      "question": {
+        "hu": "kötöttem be a partnerem szemét szex közben",
+        "en": "blindfolded my partner during sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "been-walked-in-on-during-intimacy",
+      "question": {
+        "hu": "kaptak rajta intim pillanatban",
+        "en": "been walked in on during intimacy"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "done-it-in-a-public-bathroom",
+      "question": {
+        "hu": "szexeltem nyilvános wc-ben",
+        "en": "done it in a public bathroom"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sex-at-work",
+      "question": {
+        "hu": "szexeltem a munkahelyemen",
+        "en": "had sex at work"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "engaged-in-public-flashing",
+      "question": {
+        "hu": "villantottam nyilvánosan",
+        "en": "engaged in public flashing"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "recorded-during-intimacy",
+      "question": {
+        "hu": "készítettem intim videót",
+        "en": "recorded a video during intimacy"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "wore-sexy-lingerie",
+      "question": {
+        "hu": "viseltem szexi fehérneműt",
+        "en": "wore sexy lingerie"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    }
+  ]
+}
