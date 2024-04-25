@@ -417,16 +417,6 @@
       ]
     },
     {
-      "id": "had-sex-public",
-      "question": {
-        "hu": "szexeltem nyilvános helyen",
-        "en": "did it in public"
-      },
-      "gamemodes": [
-        "Spicy"
-      ]
-    },
-    {
       "id": "69",
       "question": {
         "hu": "69-eztem",
