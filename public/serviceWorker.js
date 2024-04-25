@@ -31,7 +31,21 @@ self.addEventListener('install', event => {
 self.addEventListener("fetch", (event) => {
     console.log("Fetching via Service worker");
     event.respondWith(
-        fetch(event.request).catch(() => caches.match(event.request))
+        fetch(event.request)
+            .then((response) => {
+                if (!response || response.status !== 200 || response.type !== "basic") {
+                    return response;
+                }
+
+                const responseToCache = response.clone();
+                caches.open(CACHE_NAME)
+                    .then((cache) => {
+                        cache.put(event.request, responseToCache);
+                    });
+
+                return response;
+            })
+            .catch(() => caches.match(event.request))
     );
 });
 
