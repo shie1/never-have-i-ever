@@ -1,13 +1,12 @@
 import {Box} from "@mui/system";
 import React, {useCallback, useContext, useEffect, useState} from "react";
-import {GameModeContext, LanguageContext, QuestionsContext} from "./App";
+import {GameModeContext, QuestionsContext} from "./App";
 import {Card, colors, CustomButton, getGamemodeColor, Question, useQuestionHistory} from "./shared";
 import {AnimatePresence, motion} from "framer-motion";
 
 export const Game = () => {
     const {gamemode, setGamemode} = useContext(GameModeContext)
     const questions = useContext(QuestionsContext)
-    const lang = useContext(LanguageContext)
 
     //game logic
     const {history, addQuestionToHistory} = useQuestionHistory()
@@ -139,7 +138,7 @@ export const Game = () => {
             }}>
                 <motion.div layout key="gameMainLayout">
                     <motion.h1 key={"gm-title"} style={{
-                        fontSize: '4.8rem',
+                        fontSize: '5.6rem',
                         fontFamily: "Bebas Tam",
                         textTransform: "uppercase",
                         width: "min-content",
@@ -188,7 +187,7 @@ export const Game = () => {
                                             whiteSpace: "pre-wrap",
                                             wordWrap: "break-word",
                                             textAlign: "center"
-                                        }}>...{currentQuestion?.question[lang]}</p>
+                                        }}>...{currentQuestion?.question.hu}</p>
                                     </Card>
                                 </motion.div>
                             }
@@ -217,7 +216,7 @@ export const Game = () => {
                 <CustomButton disabled={!canForward} color={gamemodeColor} onClick={() => {
                     nextQuestion()
                 }}>
-                    Tovább
+                    Következő
                 </CustomButton>
             </Box>
         </Box>

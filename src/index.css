@@ -9,11 +9,6 @@ body{
   font-family: "Montserrat", sans-serif;
 }
 
-@font-face {
-  font-family: 'Bebas-Tam Bold';
-  src: url('BebasTamBold.ttf') format('truetype');
-}
-
 html {
   scroll-behavior: smooth;
 }

@@ -14,7 +14,7 @@ export type Gamemode = "Spicy" | "Crazy" | "Normal"
 
 export const GameModeCard = ({onClick, title, emoji, description, color}: {
     onClick: () => void,
-    title: string,
+    title?: string,
     emoji: string,
     description?: string,
     color: string,
@@ -26,7 +26,7 @@ export const GameModeCard = ({onClick, title, emoji, description, color}: {
         alignItems: 'flex-start',
         gap: '1rem',
         width: "100%",
-        padding: '1rem',
+        padding: '1rem 1.2rem',
         borderRadius: '2rem',
         backgroundColor: color,
         color: 'white',
@@ -45,6 +45,7 @@ export const GameModeCard = ({onClick, title, emoji, description, color}: {
             <h2 style={{
                 fontFamily: "Bebas Tam",
                 fontSize: "4rem",
+                marginRight: "5px",
             }}>{title}</h2>
         </div>
         {description ? <p style={{
