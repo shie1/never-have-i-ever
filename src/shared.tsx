@@ -16,7 +16,7 @@ export const GameModeCard = ({onClick, title, emoji, description, color}: {
     onClick: () => void,
     title: string,
     emoji: string,
-    description: string,
+    description?: string,
     color: string,
 }) => (
     <div onClick={onClick} style={{
@@ -47,11 +47,11 @@ export const GameModeCard = ({onClick, title, emoji, description, color}: {
                 fontSize: "4rem",
             }}>{title}</h2>
         </div>
-        <p style={{
+        {description ? <p style={{
             fontSize: "1.2rem",
             fontWeight: 600,
             textWrap: 'wrap',
-        }}>{description}</p>
+        }}>{description}</p>:<></>}
     </div>
 )
 

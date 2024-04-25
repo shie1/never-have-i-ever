@@ -29,42 +29,22 @@ export const GamemodePicker = () => {
                 maxHeight: "100%",
                 position: 'relative',
                 scrollSnapType: "y mandatory",
-                '@media (max-height: 855px)': {
-                    maxHeight: 400,
-                    paddingBottom: "50px",
-                    '&::after': {
-                        position: "fixed",
-                        background: `linear-gradient(rgba(0,0,0,0), ${colors.background})`,
-                        content: '""',
-                        height: 100,
-                        width: "100%",
-                        bottom: 0,
-                    },
-                },
                 '& > *': {
                     scrollSnapAlign: "center",
                 }
             }}>
                 <GameModeCard onClick={() => {
                     setGamemode(true)
-                }} title={"Minden"} emoji={"/exploding_head.png"} description={
-                    "minden kérdés: a jó, a rossz, a csúnya. minden."
-                } color={getGamemodeColor(true)!}/>
+                }} title={"Minden"} emoji={"/exploding_head.png"} color={getGamemodeColor(true)!}/>
                 <GameModeCard emoji={"/hot_pepper.png"} onClick={() => {
                     setGamemode("Spicy")
-                }} title={"Spicy"} description={
-                    "grrrr. nagyon szexuális kérdések..."
-                } color={getGamemodeColor("Spicy")!}/>
+                }} title={"Spicy"} color={getGamemodeColor("Spicy")!}/>
                 <GameModeCard emoji={"/stuck_out_tongue_winking_eye.png"} onClick={() => {
                     setGamemode("Crazy")
-                }} title={"Crazy"} description={
-                    "crazy? I was crazy once... they locked me in a room."
-                } color={getGamemodeColor("Crazy")!}/>
+                }} title={"Crazy"} color={getGamemodeColor("Crazy")!}/>
                 <GameModeCard emoji={"/joy.png"} onClick={() => {
                     setGamemode("Normal")
-                }} title={"Normál"} description={
-                    "nincs itt semmi látnivaló!"
-                } color={getGamemodeColor("Normal")!}/>
+                }} title={"Normál"} color={getGamemodeColor("Normal")!}/>
             </Box>
         </Box>
     )
