@@ -565,7 +565,7 @@
     {
       "id": "sex-with-stranger",
       "question": {
-        "hu": "szexeltem egy idegenel",
+        "hu": "szexeltem egy idegennel",
         "en": "had sex with a stranger"
       },
       "gamemodes": [
@@ -1019,6 +1019,164 @@
         "en": "wore sexy lingerie"
       },
       "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "sleepwalked",
+      "question": {
+        "hu": "járkáltam alvás közben",
+        "en": "sleepwalked"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "blind-date",
+      "question": {
+        "hu": "voltam vakrandin",
+        "en": "been on a blind date"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "fake-id",
+      "question": {
+        "hu": "használtam hamis személyit",
+        "en": "used a fake ID"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-about-my-age",
+      "question": {
+        "hu": "hazudtam a koromról",
+        "en": "lied about my age"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "lied-about-my-job",
+      "question": {
+        "hu": "hazudtam a munkámról",
+        "en": "lied about my job"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "love-you-without-meaning-it",
+      "question": {
+        "hu": "mondtam, hogy szeretlek, úgy hogy nem gondoltam komolyan",
+        "en": "said I love you without meaning it"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "used-a-dating-app",
+      "question": {
+        "hu": "használtam társkereső alkalmazást",
+        "en": "used a dating app"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "given-a-hickey",
+      "question": {
+        "hu": "adtam csóknyomot (hickey)",
+        "en": "given a hickey"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "recieved-a-hickey",
+      "question": {
+        "hu": "kaptam csóknyomot (hickey)",
+        "en": "received a hickey"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "long-distance-relationship",
+      "question": {
+        "hu": "voltam távkapcsolatban",
+        "en": "been in a long distance relationship"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "date-differing-ages",
+      "question": {
+        "hu": "randiztam valakivel, aki sokkal idősebb/vagy fiatalabb nálam",
+        "en": "dated someone much older/younger than me"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "sex-differing-ages",
+      "question": {
+        "hu": "szexeltem valakivel, aki sokkal idősebb/vagy fiatalabb nálam",
+        "en": "had sex with someone much older/younger than me"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "guessing-password",
+      "question": {
+        "hu": "próbáltam kitalálni valaki jelszavát",
+        "en": "tried to guess someone's password"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "same-sex-fantasy",
+      "question": {
+        "hu": "fantáziáltam velem azonos nemű személyről",
+        "en": "had a fantasy about someone of the same sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "lied-about-orienation",
+      "question": {
+        "hu": "hazudtam a szexualitásomról",
+        "en": "lied about my sexual orientation"
+      },
+      "gamemodes": [
+        "Crazy",
         "Spicy"
       ]
     }

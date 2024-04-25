@@ -22,7 +22,7 @@ export const Game = () => {
 
         // filter questions that fit the gamemode
         let selectedQuestions = questions?.questions.filter((question) => {
-            if (gamemode == true) {
+            if (gamemode === true) {
                 return question
             }
             return question.gamemodes.find((gm) => gm === gamemode)
@@ -79,7 +79,7 @@ export const Game = () => {
                 setGamemodeLabelValue("Crazy")
                 break
             case "Normal":
-                setGamemodeLabelValue("Normal")
+                setGamemodeLabelValue("Normál")
                 break
             case true:
                 setGamemodeLabelValue("Minden")
