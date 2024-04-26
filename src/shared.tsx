@@ -185,23 +185,8 @@ export const getGamemodeColor = (gm: Gamemode | true | undefined) => {
 }
 
 export function useIsStandalone() {
-    const [matches, setMatches] = useState(false);
-
-    useEffect(() => {
-        const matchQueryList = window.matchMedia("(display-mode: standalone)");
-
-        function handleChange(e: any) {
-            setMatches(e.matches);
-        }
-
-        matchQueryList.addEventListener("change", handleChange);
-
-        return () => {
-            matchQueryList.removeEventListener("change", handleChange);
-        };
-    }, []);
-
-    return matches;
+    const standalone = window.location.search.includes("mode=standalone")
+    return standalone
 }
 
 export const isiOS = () => {
@@ -217,10 +202,10 @@ export const isiOS = () => {
         || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
 }
 
-export const useInstallPrompt = ()=>{
+export const useInstallPrompt = () => {
     const [prompt, setPrompt] = useState<any>(null)
 
-    useEffect(()=>{
+    useEffect(() => {
         const handler = (e: any) => {
             e.preventDefault()
             setPrompt(e)
@@ -230,7 +215,7 @@ export const useInstallPrompt = ()=>{
     }, [])
 
     const install = () => {
-        if(prompt){
+        if (prompt) {
             prompt.prompt()
         }
     }

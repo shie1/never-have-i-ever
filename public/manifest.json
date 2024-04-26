@@ -52,7 +52,7 @@
       "sizes": "1290x2796"
     }
   ],
-  "start_url": ".",
+  "start_url": "./?mode=standalone",
   "display": "standalone",
   "theme_color": "#4214B7",
   "background_color": "#0C020E"

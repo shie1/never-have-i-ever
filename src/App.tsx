@@ -61,7 +61,7 @@ function App() {
             <GameModeContext.Provider value={{gamemode, setGamemode}}>
                 <QuestionsContext.Provider value={questions}>
                     <AnimatePresence>
-                        {!standalone ?
+                        {!  standalone ?
                             <motion.div style={{
                                 maxWidth: "min-content",
                                 maxHeight: "100%",

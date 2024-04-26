@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nhai-v1';
+const CACHE_NAME = 'nhie-v1.1';
 
 const urlsToCache = [
     '/',
