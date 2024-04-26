@@ -185,7 +185,7 @@ export const getGamemodeColor = (gm: Gamemode | true | undefined) => {
 }
 
 export function useIsStandalone() {
-    const standalone = window.location.search.includes("mode=standalone")
+    const standalone = window.location.pathname === "/game"
     return standalone
 }
 
