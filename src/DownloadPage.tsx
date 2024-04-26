@@ -151,7 +151,6 @@ export const DownloadPage = () => {
                         alignItems: "center",
                         flexDirection: "column",
                         width: "110%",
-                        height: "40%",
                         margin: 0,
                         marginTop: "auto",
                         padding: "2rem",
