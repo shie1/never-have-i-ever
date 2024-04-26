@@ -42,10 +42,6 @@ function App() {
         console.table({allCount, spicyCount, crazyCount, normalCount})
     }, [questions])
 
-    useEffect(() => {
-        console.log(standalone)
-    }, [standalone]);
-
     return (
         <Container style={{
             height: '100%',

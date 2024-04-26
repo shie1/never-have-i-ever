@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nhie-v1.2';
+const CACHE_NAME = 'nhie-v1.3';
 
 const urlsToCache = [
     '/',
@@ -10,6 +10,7 @@ const urlsToCache = [
     "/static/js/App.tsx",
     "/static/js/Game.tsx",
     "/static/js/GameModePicker.tsx",
+    "/static/js/DownloadPage.tsx",
     "/static/js/shared.tsx",
     "/static/css/index.css",
     "/exploding_head.png",
@@ -31,7 +32,15 @@ const urlsToCache = [
 self.addEventListener('install', event => {
     event.waitUntil(
         caches.open(CACHE_NAME)
-            .then(cache => cache.addAll(urlsToCache))
+            .then(async cache => {
+                for(let url of urlsToCache) {
+                    try {
+                        await cache.add(url);
+                    } catch (e) {
+                        console.warn(`Failed to cache ${url}`, e);
+                    }
+                }
+            })
     );
 })
 

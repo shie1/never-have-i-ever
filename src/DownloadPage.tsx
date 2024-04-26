@@ -1,5 +1,5 @@
 import {Box} from "@mui/system";
-import {Card, colors, CustomButton, isiOS, useInstallPrompt} from "./shared";
+import {colors, CustomButton, isiOS, useInstallPrompt} from "./shared";
 import React, {useMemo, useState} from "react";
 import {AnimatePresence, motion} from "framer-motion";
 
