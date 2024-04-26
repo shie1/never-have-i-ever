@@ -1,9 +1,10 @@
 import React, {createContext, useEffect, useState} from 'react';
 import {Container} from "@mui/system";
 import {GamemodePicker} from "./GamemodePicker";
-import {Gamemode, QuestionsJson} from "./shared";
+import {Gamemode, QuestionsJson, useIsStandalone} from "./shared";
 import {Game} from "./Game";
 import {motion, AnimatePresence} from "framer-motion";
+import {DownloadPage} from "./DownloadPage";
 
 export const GameModeContext = createContext<{
     gamemode: Gamemode | undefined | true,
@@ -18,6 +19,7 @@ export const QuestionsContext = createContext<QuestionsJson | undefined>(undefin
 function App() {
     const [gamemode, setGamemode] = useState<Gamemode | undefined | true>()
     const [questions, setQuestions] = useState<QuestionsJson | undefined>()
+    const standalone = useIsStandalone()
 
     useEffect(() => {
         const ac = new AbortController()
@@ -40,6 +42,10 @@ function App() {
         console.table({allCount, spicyCount, crazyCount, normalCount})
     }, [questions])
 
+    useEffect(() => {
+        console.log(standalone)
+    }, [standalone]);
+
     return (
         <Container style={{
             height: '100%',
@@ -55,55 +61,75 @@ function App() {
             <GameModeContext.Provider value={{gamemode, setGamemode}}>
                 <QuestionsContext.Provider value={questions}>
                     <AnimatePresence>
-                        {!gamemode ?
-                            <motion.div
-                                style={{
-                                    maxWidth: "min-content",
-                                    maxHeight: "100%",
-                                    display: 'flex',
-                                }}
-                                initial={{
-                                    transform: "translateX(-100%) rotate(-10deg)",
-                                    opacity: 0,
-                                    position: "absolute",
-                                }}
-                                animate={{
-                                    transform: "translateX(0%) rotate(0deg)",
-                                    opacity: 1,
-                                    position: "relative",
-                                }}
-                                exit={{
-                                    transform: "translateX(-100%) rotate(-10deg)",
-                                    opacity: 0,
-                                    position: "absolute",
-                                }}
-                                key="gameModePicker">
-                                <GamemodePicker/>
-                            </motion.div> :
-                            <motion.div
-                                style={{
-                                    maxHeight: "100%",
-                                    display: 'flex',
-                                    maxWidth: "min-content"
-                                }}
-                                initial={{
-                                    transform: "translateX(100%) rotate(10deg)",
-                                    opacity: 0,
-                                    position: "absolute",
-                                }}
-                                animate={{
-                                    transform: "translateX(0%) rotate(0deg)",
-                                    opacity: 1,
-                                    position: "relative",
-                                }}
-                                exit={{
-                                    transform: "translateX(100%) rotate(10deg)",
-                                    opacity: 0,
-                                    position: "absolute",
-                                }}
-                                key="gameInstance">
-                                <Game/>
-                            </motion.div>}
+                        {!standalone ?
+                            <motion.div style={{
+                                maxWidth: "min-content",
+                                maxHeight: "100%",
+                                display: 'flex',
+                            }} initial={{
+                                transform: "translateX(-100%) rotate(-10deg)",
+                                opacity: 0,
+                                position: "absolute",
+                            }} animate={{
+                                transform: "translateX(0%) rotate(0deg)",
+                                opacity: 1,
+                                position: "relative",
+                            }} exit={{
+                                transform: "translateX(-100%) rotate(-10deg)",
+                                opacity: 0,
+                                position: "absolute",
+                            }} key="downloadPage">
+                                <DownloadPage/>
+                            </motion.div>
+                            : !gamemode ?
+                                <motion.div
+                                    style={{
+                                        maxWidth: "min-content",
+                                        maxHeight: "100%",
+                                        display: 'flex',
+                                    }}
+                                    initial={{
+                                        transform: "translateX(-100%) rotate(-10deg)",
+                                        opacity: 0,
+                                        position: "absolute",
+                                    }}
+                                    animate={{
+                                        transform: "translateX(0%) rotate(0deg)",
+                                        opacity: 1,
+                                        position: "relative",
+                                    }}
+                                    exit={{
+                                        transform: "translateX(-100%) rotate(-10deg)",
+                                        opacity: 0,
+                                        position: "absolute",
+                                    }}
+                                    key="gameModePicker">
+                                    <GamemodePicker/>
+                                </motion.div> :
+                                <motion.div
+                                    style={{
+                                        maxHeight: "100%",
+                                        display: 'flex',
+                                        maxWidth: "min-content"
+                                    }}
+                                    initial={{
+                                        transform: "translateX(100%) rotate(10deg)",
+                                        opacity: 0,
+                                        position: "absolute",
+                                    }}
+                                    animate={{
+                                        transform: "translateX(0%) rotate(0deg)",
+                                        opacity: 1,
+                                        position: "relative",
+                                    }}
+                                    exit={{
+                                        transform: "translateX(100%) rotate(10deg)",
+                                        opacity: 0,
+                                        position: "absolute",
+                                    }}
+                                    key="gameInstance">
+                                    <Game/>
+                                </motion.div>}
                     </AnimatePresence>
                 </QuestionsContext.Provider>
             </GameModeContext.Provider>

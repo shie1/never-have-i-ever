@@ -52,7 +52,7 @@ export const GameModeCard = ({onClick, title, emoji, description, color}: {
             fontSize: "1.2rem",
             fontWeight: 600,
             textWrap: 'wrap',
-        }}>{description}</p>:<></>}
+        }}>{description}</p> : <></>}
     </div>
 )
 
@@ -182,4 +182,58 @@ export const getGamemodeColor = (gm: Gamemode | true | undefined) => {
         default:
             return undefined
     }
+}
+
+export function useIsStandalone() {
+    const [matches, setMatches] = useState(false);
+
+    useEffect(() => {
+        const matchQueryList = window.matchMedia("(display-mode: standalone)");
+
+        function handleChange(e: any) {
+            setMatches(e.matches);
+        }
+
+        matchQueryList.addEventListener("change", handleChange);
+
+        return () => {
+            matchQueryList.removeEventListener("change", handleChange);
+        };
+    }, []);
+
+    return matches;
+}
+
+export const isiOS = () => {
+    return [
+            'iPad Simulator',
+            'iPhone Simulator',
+            'iPod Simulator',
+            'iPad',
+            'iPhone',
+            'iPod'
+        ].includes(navigator.platform)
+        // iPad on iOS 13 detection
+        || (navigator.userAgent.includes("Mac") && "ontouchend" in document)
+}
+
+export const useInstallPrompt = ()=>{
+    const [prompt, setPrompt] = useState<any>(null)
+
+    useEffect(()=>{
+        const handler = (e: any) => {
+            e.preventDefault()
+            setPrompt(e)
+        }
+        window.addEventListener("beforeinstallprompt", handler)
+        return () => window.removeEventListener("beforeinstallprompt", handler)
+    }, [])
+
+    const install = () => {
+        if(prompt){
+            prompt.prompt()
+        }
+    }
+
+    return {prompt, install}
 }

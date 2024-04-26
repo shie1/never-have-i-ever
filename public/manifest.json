@@ -28,8 +28,28 @@
     },
     {
       "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
+      "sizes": "64x64",
       "type": "image/x-icon"
+    }
+  ],
+  "screenshots": [
+    {
+      "src": "/screenshots/mobile_1.png",
+      "form_factor": "narrow",
+      "type": "image/png",
+      "sizes": "1290x2796"
+    },
+    {
+      "src": "/screenshots/mobile_2.png",
+      "form_factor": "narrow",
+      "type": "image/png",
+      "sizes": "1290x2796"
+    },
+    {
+      "src": "/screenshots/mobile_3.png",
+      "form_factor": "narrow",
+      "type": "image/png",
+      "sizes": "1290x2796"
     }
   ],
   "start_url": ".",
