@@ -169,7 +169,7 @@ export const DownloadPage = () => {
                             fontFamily: "Montserrat",
                             fontSize: "4rem",
                             textAlign: "center",
-                        }}>Telepítés iOs-en</h3>
+                        }}>Telepítés iOS-en</h3>
                         <ol style={{
                             fontSize: "1.2rem",
                         }}>
