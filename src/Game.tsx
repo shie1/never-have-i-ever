@@ -160,7 +160,7 @@ export const Game = () => {
                             {currentQuestion &&
                                 <motion.div
                                     initial={{
-                                        transform: "translateX(-100%) rotate(-10deg) scale(0.8)",
+                                        transform: "translateX(-100%) rotate(-10deg) scale(0.5)",
                                         opacity: 0,
                                         zIndex: -1,
                                         position: "absolute",
@@ -173,7 +173,7 @@ export const Game = () => {
                                         position: "relative",
                                     }}
                                     exit={{
-                                        transform: "translateX(100%) rotate(10deg) scale(0.8)",
+                                        transform: "translateX(100%) rotate(10deg) scale(0.5)",
                                         opacity: 0,
                                         zIndex: -1,
                                         position: "absolute",
