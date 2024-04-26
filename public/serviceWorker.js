@@ -1,9 +1,11 @@
-const CACHE_NAME = 'nhie-v1.1';
+const CACHE_NAME = 'nhie-v1.2';
 
 const urlsToCache = [
     '/',
+    '/?mode=standalone',
     '/index.html',
     "/questions.json",
+    "/manifest.json",
     "/static/js/index.tsx",
     "/static/js/App.tsx",
     "/static/js/Game.tsx",
@@ -15,6 +17,11 @@ const urlsToCache = [
     "/joy.png",
     "/us.png",
     "/hu.png",
+    "/screenshots/mobile_1.png",
+    "/screenshots/mobile_2.png",
+    "/screenshots/mobile_3.png",
+    "/ios-add.svg",
+    "/ios-share.svg",
     "/BebasTamFont.css",
     "/BebasTamBold.ttf",
     "/stuck_out_tongue_winking_eye.png",
