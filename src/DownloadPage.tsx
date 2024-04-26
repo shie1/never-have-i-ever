@@ -120,8 +120,7 @@ export const DownloadPage = () => {
                     style={{
                         position: 'fixed',
                         top: "-2rem",
-                        left: "-1rem",
-                        width: "100vw",
+                        width: "100%",
                         height: "100vh",
                         backdropFilter: "brightness(.5) blur(.4rem)",
                         display: "flex",
