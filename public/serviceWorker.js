@@ -1,8 +1,8 @@
-const CACHE_NAME = 'nhie-v1.4';
+const CACHE_NAME = 'nhie-v1.4-fix';
 
 const urlsToCache = [
     '/',
-    '/game',
+    '/?mode=standalone',
     '/index.html',
     "/questions.json",
     "/manifest.json",
