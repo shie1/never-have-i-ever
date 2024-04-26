@@ -5,8 +5,15 @@ import {AnimatePresence, motion} from "framer-motion";
 
 export const DownloadPage = () => {
     const year = useMemo(() => (new Date()).getFullYear(), [])
-    const {install} = useInstallPrompt()
+    const {prompt, install} = useInstallPrompt()
+    const iosCurrently = useMemo(() => isiOS(), [])
     const [openiOsPrompt, setOpeniOsPrompt] = useState(false)
+    const waiting = useMemo(() => {
+        if (iosCurrently) {
+            return false
+        }
+        return !prompt
+    }, [iosCurrently, prompt])
 
     return (<>
         <Box sx={{
@@ -98,9 +105,13 @@ export const DownloadPage = () => {
                 </Box>
             </Box>
             <Box sx={{
-                gap: "1rem",
+                gap: ".5rem",
+                flexDirection: 'column !important',
+                justifyContent: "flex-end !important",
+                alignItems: "center !important",
             }}>
-                <CustomButton color={colors.secondary} onClick={() => {
+                <CustomButton disabled={waiting} color={colors.secondary} onClick={() => {
+                    if(waiting) return
                     if (isiOS()) {
                         setOpeniOsPrompt(true)
                     } else {
@@ -109,6 +120,7 @@ export const DownloadPage = () => {
                 }}>
                     Letöltés
                 </CustomButton>
+                {waiting ? <span>Csomag lekérdezése, kérlek várj...</span> : <></>}
             </Box>
         </Box>
         <AnimatePresence>
