@@ -136,10 +136,10 @@
       ]
     },
     {
-      "id": "knocked-out",
+      "id": "beaten-up",
       "question": {
-        "hu": "voltam kiütve",
-        "en": "been knocked out"
+        "hu": "voltam megverve",
+        "en": "been beaten up"
       },
       "gamemodes": [
         "Crazy"
@@ -504,7 +504,7 @@
       "id": "tatoo",
       "question": {
         "hu": "csináltattam tetoválást",
-        "en": "had a tattoo"
+        "en": "gotten a tattoo"
       },
       "gamemodes": [
         "Normal",
@@ -845,7 +845,7 @@
     {
       "id": "used-a-sex-toy",
       "question": {
-        "hu": "használtam szexuális segédeszközt",
+        "hu": "használtam szexjátékot",
         "en": "used a sex toy"
       },
       "gamemodes": [
@@ -923,10 +923,10 @@
       ]
     },
     {
-      "id": "received-or-given-a-massage-with-a-happy-ending",
+      "id": "sexy-massage",
       "question": {
-        "hu": "kaptam vagy adtam masszázst happy ending-el",
-        "en": "received or given a massage with a happy ending"
+        "hu": "kaptam vagy adtam szexi masszázst",
+        "en": "received or gave a sexy massage"
       },
       "gamemodes": [
         "Spicy"
@@ -965,7 +965,7 @@
     {
       "id": "been-walked-in-on-during-intimacy",
       "question": {
-        "hu": "kaptak rajta intim pillanatban",
+        "hu": "buktam le intim pillanatban",
         "en": "been walked in on during intimacy"
       },
       "gamemodes": [
@@ -993,10 +993,10 @@
       ]
     },
     {
-      "id": "engaged-in-public-flashing",
+      "id": "flashing",
       "question": {
-        "hu": "villantottam nyilvánosan",
-        "en": "engaged in public flashing"
+        "hu": "villantottam",
+        "en": "flashed someone"
       },
       "gamemodes": [
         "Spicy"
@@ -1177,6 +1177,744 @@
       },
       "gamemodes": [
         "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "used-ice-cubes-during-intimacy",
+      "question": {
+        "hu": "használtam jégkockákat szex közben",
+        "en": "used ice cubes during intimacy"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "had-a-romantic-bath-with-partner",
+      "question": {
+        "hu": "vettem romantikus fürdőt valakivel",
+        "en": "had a romantic bath with someone"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "used-sexual-enhancement-products",
+      "question": {
+        "hu": "használtam szexuális teljesítményfokozót",
+        "en": "used sexual enhancement products"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "attended-a-concert",
+      "question": {
+        "hu": "voltam koncerten",
+        "en": "attended a concert"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "snooped-through-phone",
+      "question": {
+        "hu": "kémkedtem valaki telefonjában",
+        "en": "snooped through someone's phone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "had-an-erotic-dream-about-a-friend",
+      "question": {
+        "hu": "álmodtam erotikusat egy barátról",
+        "en": "had an erotic dream about a friend"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "same-sex-kiss",
+      "question": {
+        "hu": "csókoltam azonos nemű személlyel",
+        "en": "kissed someone of the same sex"
+      },
+      "gamemodes": [
+        "Spicy",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "had-a-crush-on-a-coworker",
+      "question": {
+        "hu": "zúgtam bele egy munkatársamba",
+        "en": "had a crush on a coworker"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "sex-shop",
+      "question": {
+        "hu": "vásároltam szexshopból",
+        "en": "bought something from a sex shop"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "porn-in-public",
+      "question": {
+        "hu": "néztem pornót nyilvános helyen",
+        "en": "watched porn in public"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "written-a-love-letter",
+      "question": {
+        "hu": "írtam egy szerelmes levelet",
+        "en": "written a love letter"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "performed-on-stage",
+      "question": {
+        "hu": "léptem fel színpadon",
+        "en": "performed on stage"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "spent-the-night-on-the-street",
+      "question": {
+        "hu": "aludtam az utcán",
+        "en": "spent the night on the street"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "visited-an-abaondoned-place",
+      "question": {
+        "hu": "fedeztem fel egy elhagyatott helyet",
+        "en": "visited an abandoned place"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "participated-in-a-protest",
+      "question": {
+        "hu": "vettem részt egy tüntetésen",
+        "en": "participated in a protest"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "sent-a-fan-letter",
+      "question": {
+        "hu": "küldtem egy rajongói levelet",
+        "en": "sent a fan letter"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "nude-beach",
+      "question": {
+        "hu": "voltam nudista strandon",
+        "en": "been to a nude beach"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "wrote-a-poem",
+      "question": {
+        "hu": "írtam verset",
+        "en": "wrote a poem"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "emergency-services",
+      "question": {
+        "hu": "hívtam a mentőket, tűzoltókat vagy rendőrséget",
+        "en": "called emergency services"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "hosted-a-party",
+      "question": {
+        "hu": "rendeztem bulit",
+        "en": "hosted a party"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "went-to-a-concert-alone",
+      "question": {
+        "hu": "mentem egyedül koncertre",
+        "en": "went to a concert alone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "adopted-a-pet",
+      "question": {
+        "hu": "fogadtam örökbe egy állatot",
+        "en": "adopted a pet"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "slept-under-the-stars",
+      "question": {
+        "hu": "aludtam a csillagok alatt",
+        "en": "slept under the stars"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "danced-in-the-rain",
+      "question": {
+        "hu": "táncoltam az esőben",
+        "en": "danced in the rain"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "ambulance",
+      "question": {
+        "hu": "voltam mentőautóban",
+        "en": "been in an ambulance"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "life-threatening-situation",
+      "question": {
+        "hu": "voltam életveszélyes helyzetben",
+        "en": "been in a life-threatening situation"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "wanted-to-run-away",
+      "question": {
+        "hu": "akartam világgá menni",
+        "en": "wanted to run away from home"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "overcome-a-fear",
+      "question": {
+        "hu": "győztem le egy félelmemet",
+        "en": "overcome a fear"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "revenge",
+      "question": {
+        "hu": "álltam bosszút valakin",
+        "en": "taken revenge on someone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-about-name",
+      "question": {
+        "hu": "hazudtam a nevemről",
+        "en": "lied about my name"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "committed-a-crime",
+      "question": {
+        "hu": "követtem el egy bűncselekményt",
+        "en": "committed a crime"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "witnesed-a-crime",
+      "question": {
+        "hu": "voltam szemtanúja egy bűncselekménynek",
+        "en": "witnessed a crime"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-about-relationship-status",
+      "question": {
+        "hu": "hazudtam a kapcsolati állapotomról",
+        "en": "lied about my relationship status"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy",
+        "Spicy"
+      ]
+    },
+    {
+      "id": "ruined-someones-relationsip",
+      "question": {
+        "hu": "tettem tönkre valakinek a kapcsolatát",
+        "en": "ruined someone's relationship"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "been-threatened",
+      "question": {
+        "hu": "voltam megfenyegetve",
+        "en": "been threatened"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "got-stuck-in-an-elevator",
+      "question": {
+        "hu": "szorultam be egy liftbe",
+        "en": "got stuck in an elevator"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "got-a-haircut-on-a-whim",
+      "question": {
+        "hu": "vágattam le a hajam hirtelen felindulásból",
+        "en": "got a haircut on a whim"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "started-a-fire",
+      "question": {
+        "hu": "okoztam egy tüzet",
+        "en": "started a fire"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "saw-a-shooting-star",
+      "question": {
+        "hu": "láttam hullócsillagot",
+        "en": "saw a shooting star"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "been-fired-from-a-job",
+      "question": {
+        "hu": "voltam kirúgva munkahelyről",
+        "en": "been fired from a job"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "banned-from-a-place",
+      "question": {
+        "hu": "voltam kitiltva valahonnan",
+        "en": "been banned from a place"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "broken-someones-heart",
+      "question": {
+        "hu": "törtem össze valakinek a szívét",
+        "en": "broken someone's heart"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "lied-to-get-out-of-hangout",
+      "question": {
+        "hu": "hazudtam azért, hogy kibújjak egy találkozóból",
+        "en": "lied to get out of a hangout"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "thrown-up-in-public",
+      "question": {
+        "hu": "hánytam nyilvános helyen",
+        "en": "thrown up in public"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "masturbated",
+      "question": {
+        "hu": "maszturbáltam",
+        "en": "masturbated"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "gotten-back-together-with-an-ex",
+      "question": {
+        "hu": "mentem vissza egy exemhez",
+        "en": "gotten back together with an ex"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "been-tied-up",
+      "question": {
+        "hu": "voltam megkötözve",
+        "en": "been tied up"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "drunk-text",
+      "question": {
+        "hu": "kezdtem el valakinek irogatni részegen",
+        "en": "drunk texted someone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "breakup-over-text",
+      "question": {
+        "hu": "szakítottam chaten",
+        "en": "broke up with someone over text"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "shoplifted",
+      "question": {
+        "hu": "loptam boltból",
+        "en": "shoplifted"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "mugged",
+      "question": {
+        "hu": "voltam kirabolva",
+        "en": "been mugged"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "edited-a-photo-to-look-better",
+      "question": {
+        "hu": "szerkesztettem egy fotót, hogy jobban nézzek ki",
+        "en": "edited a photo to look better"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "not-paying-fare",
+      "question": {
+        "hu": "blicceltem",
+        "en": "not paid for public transport"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "not-worn-underwear",
+      "question": {
+        "hu": "mentem ki alsónemű nélkül",
+        "en": "not worn underwear"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "drop-phone-in-toilet",
+      "question": {
+        "hu": "ejtettem a telefonom a wc-be",
+        "en": "dropped my phone in the toilet"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "drop-phone-on-face",
+      "question": {
+        "hu": "ejtettem a telefonom az arcomra",
+        "en": "dropped my phone on my face"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "did-something-stupid-while-drunk",
+      "question": {
+        "hu": "csináltam valami hülyeséget részegen",
+        "en": "did something stupid while drunk"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "cut-my-own-hair",
+      "question": {
+        "hu": "vágtam le a saját hajam",
+        "en": "cut my own hair"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "fake-number",
+      "question": {
+        "hu": "adtam hamis telefonszámot valakinek",
+        "en": "gave a fake number"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "laugh-peeing",
+      "question": {
+        "hu": "nevettem úgy, hogy közben bepisiltem",
+        "en": "laughed so hard I peed"
+      },
+      "gamemodes": [
+        "Crazy"
+      ]
+    },
+    {
+      "id": "drunk-work",
+      "question": {
+        "hu": "mentem részegen dolgozni",
+        "en": "went to work drunk"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "secret-photo",
+      "question": {
+        "hu": "készítettem titkos fotót valakiről",
+        "en": "taken a secret photo of someone"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "re-gift",
+      "question": {
+        "hu": "adtam tovább egy ajándékot",
+        "en": "re-gifted a gift"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "eavesdropped",
+      "question": {
+        "hu": "hallgatóztam",
+        "en": "eavesdropped"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "smoked-where-not-allowed",
+      "question": {
+        "hu": "dohányoztam, ahol nem lett volna szabad",
+        "en": "smoked where not allowed"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "using-someone-elses-netflix",
+      "question": {
+        "hu": "használtam valaki más Netflixét",
+        "en": "used someone else's Netflix account"
+      },
+      "gamemodes": [
+        "Normal"
+      ]
+    },
+    {
+      "id": "cried-at-work",
+      "question": {
+        "hu": "sírtam a munkahelyemen",
+        "en": "cried at work"
+      },
+      "gamemodes": [
+        "Normal",
+        "Crazy"
+      ]
+    },
+    {
+      "id": "open-relationship",
+      "question": {
+        "hu": "voltam nyílt kapcsolatban",
+        "en": "been in an open relationship"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "tried-anal",
+      "question": {
+        "hu": "próbáltam ki az anális szexet",
+        "en": "tried anal sex"
+      },
+      "gamemodes": [
+        "Spicy"
+      ]
+    },
+    {
+      "id": "googled-sex-poses",
+      "questions": {
+        "hu": "kerestem szexpózokat a neten",
+        "en": "googled sex positions"
+      },
+      "gamemodes": [
         "Spicy"
       ]
     }
