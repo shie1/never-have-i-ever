@@ -1,4 +1,4 @@
-const CACHE_NAME = 'nhie-v1.6';
+const CACHE_NAME = 'nhie-v1.6-hotfix';
 
 const urlsToCache = [
     '/',
@@ -51,15 +51,14 @@ self.addEventListener("fetch", (event) => {
             .then((response) => {
                 if (!response || response.status !== 200 || response.type !== "basic") {
                     return response;
+                }else {
+                    const responseToCache = response.clone();
+                    caches.open(CACHE_NAME)
+                        .then((cache) => {
+                            cache.put(event.request, responseToCache);
+                        });
+                    return response;
                 }
-
-                const responseToCache = response.clone();
-                caches.open(CACHE_NAME)
-                    .then((cache) => {
-                        cache.put(event.request, responseToCache);
-                    });
-
-                return response;
             })
             .catch(() => caches.match(event.request))
     );
